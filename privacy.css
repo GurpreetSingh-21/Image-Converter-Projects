@@ -1,4 +1,4 @@
-/* Navbar Styles */
+
 .navbar {
     width: 100%;
     background-color: #3aaf9f;
@@ -26,7 +26,7 @@
     padding-bottom: 0.2rem;
 }
 
-/* Rest of the CSS */
+
 * {
     margin: 0;
     padding: 0;
