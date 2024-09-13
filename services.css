@@ -1,4 +1,4 @@
-/* General Styling */
+
 * {
     margin: 0;
     padding: 0;
@@ -7,35 +7,35 @@
 }
 
 body {
-    background: linear-gradient(169deg, #000000, #3e065f); /* Purple-based gradient */
+    background: linear-gradient(169deg, #000000, #3e065f); 
     color: #F5F5F5;
     line-height: 1.6;
 }
 
 a {
     text-decoration: none;
-    color: #a373f1; /* Light purple */
+    color: #a373f1; 
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #dda0ff; /* Bright purple on hover */
+    color: #dda0ff; 
 }
 
-/* Navigation Bar */
+
 .nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px 50px;
-    background-color: rgba(0, 0, 0, 0); /* Semi-transparent black */
+    background-color: rgba(0, 0, 0, 0); 
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 #mainlogo {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #a373f1; /* Light purple */
+    color: #a373f1; 
 }
 
 .center-items a, .right-items a {
@@ -47,16 +47,15 @@ a:hover {
 
 input[type="text"] {
     padding: 8px 10px;
-    border: 1px solid #dda0ff; /* Bright purple */
+    border: 1px solid #dda0ff; 
     border-radius: 5px;
     margin-right: 10px;
 }
 
-/* Services Section */
 .services-section {
     text-align: center;
     padding: 50px 20px;
-    background: linear-gradient(135deg, #6a0dad, #3e065f); /* Purple gradient */
+    background: linear-gradient(135deg, #6a0dad, #3e065f); 
     color: #F5F5F5;
     border-radius: 10px;
     max-width: 1200px;
@@ -102,13 +101,12 @@ input[type="text"] {
 
 .service-list li:hover, .supported-formats li:hover {
     transform: translateY(-5px);
-    background-color: #efe3fc; /* Light purple background on hover */
-}
+    background-color: #efe3fc; 
 
 .call-to-action {
     margin-top: 40px;
     padding: 20px;
-    background-color: #6200ff; /* Light purple */
+    background-color: #6200ff;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
@@ -132,11 +130,10 @@ input[type="text"] {
 }
 
 .call-to-action a:hover {
-    background-color: #5d1783; /* Bright purple */
+    background-color: #5d1783; 
     color: #ffffff;
 }
 
-/* Footer Styling */
 footer {
     text-align: center;
     padding: 20px;
@@ -149,14 +146,14 @@ footer p {
 }
 
 footer a {
-    color: #a373f1; /* Light purple */
+    color: #a373f1; 
 }
 
 footer a:hover {
-    color: #c35afc; /* Bright purple */
+    color: #c35afc; 
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
     .nav {
         flex-direction: column;
