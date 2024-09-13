@@ -2,5 +2,5 @@ Welcome to my image conversion tool! It allows you to convert your images quickl
 
 <hr>
 here is a link to my website
-<hr> 
+<br> 
 https://gurpreetsingh-21.github.io/Image-Converter-Projects/
