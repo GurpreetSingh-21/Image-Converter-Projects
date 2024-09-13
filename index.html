@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Tools</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="nav">
+        <a id="mainlogo" href="#">Image Converter</a>
+        <div class="center-items">
+           
+            <a href="index.html">Home</a>
+    <a href="./service.html" target="_blank">Services</a>
+    <a href="./contact.html" target="_blank">Contact</a>
+        </div>
+        <div class="right-items">
+            <input type="text" placeholder="Search..." aria-label="Search">
+            <a href="./login.html" target="_blank">Login</a>
+            <a href="./signup.html" target="_blank">Sign Up</a>
+        </div>
+    </div>
+    
+
+    <!-- Main Text -->
+    <div id="imtxt">
+        <p>Convert Your Images Seamlessly</p>
+        <h6>Fast, reliable, and secure image conversion tools that deliver professional results in seconds.</h6>
+    </div>
+
+    <!-- Upload Box  -->
+    <div class="upload-box" id="upload-box">
+        <p>Drag & Drop to Upload</p>
+        <p>or</p>
+        <button id="choose-file-btn">Choose file</button>
+        <input type="file" id="file-input" hidden>
+        <p class="file-info">Max file size 1GB</p>
+
+        <!-- Format Selection and Conversion -->
+        <div id="format-section">
+            <label for="format-select">Choose format:</label>
+            <select id="format-select">
+                <option value="png">PNG</option>
+                <option value="jpg">JPG</option>
+                <option value="heic">HEIC</option>
+               
+            </select>
+            <button id="convert-btn">Convert Image</button>
+        </div>
+<br>
+<br>
+        <!-- Output and Download Section -->
+<div id="image-output" style="display: none;">
+    <hr>
+    <img id="output-image" src="" alt="Converted Image">
+    <br>
+    <!-- Uploaded Image Preview -->
+    <img id="uploaded-image-preview" src="" alt="Uploaded Image" style="display: none; margin-top: 10px; max-width: 10%; height: 10%;">
+    <div id="conversion-status" style="margin-top: 10px; color: #ff007f; font-weight: bold;"></div>
+    <a id="download-link" href="" style="display: none;">Download Image</a>
+</div>
+
+    </div>
+<!-- Spinner (hidden by default) -->
+<div id="spinner" class="spinner" style="display: none;"></div>
+
+<!-- Progress Bar (hidden by default) -->
+<div id="progress-bar-container" style="display: none;">
+    <div id="progress-bar"></div>
+</div>
+<!-- Confirmation Message -->
+<div id="confirmation-message" style="display: none;" class="confirmation-message"></div>
+
+ <!-- Features Section -->
+ 
+<section class="features">
+    <h2>Why Choose My Service?</h2>
+    <div class="feature-cards">
+        <div class="card">
+          
+            <h3>Fast Conversion</h3>
+            <p>Convert your images in seconds with optimized tools.</p>
+        </div>
+        <div class="card">
+           
+            <h3>Secure & Private</h3>
+            <p>Prioritizing your privacy and ensuring your images are never stored.</p>
+        </div>
+        <div class="card">
+            
+            <h3>High Quality Output</h3>
+            <p>Maintaining the quality of your images through precise conversion.</p>
+        </div>
+    </div>
+</section>
+
+
+
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/heic2any/0.2.4/heic2any.min.js"></script>
+
+
+</body>
+</html>
